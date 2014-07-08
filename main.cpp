@@ -1,3 +1,4 @@
+
 #include <iostream>
 #include <glm.h>
 #include <GL/glut.h>
@@ -33,22 +34,22 @@ GLMmodel* gun;
 
 void init(void)
 {
-	glEnable(GL_COLOR_MATERIAL);
-	glEnable(GL_TEXTURE_2D);
-	/*glEnable(GL_LIGHTING);
+	//glEnable(GL_COLOR_MATERIAL);
+	//glEnable(GL_TEXTURE_2D);
+	//glEnable(GL_LIGHTING);
 	glClearColor (0.0, 0.0, 0.0, 0.0);
-	glLightfv (GL_LIGHT1, GL_AMBIENT, light_ambient);
+	/*glLightfv (GL_LIGHT1, GL_AMBIENT, light_ambient);
 	glLightfv (GL_LIGHT1, GL_DIFFUSE, light_diffuse);
     glLightfv (GL_LIGHT1, GL_DIFFUSE, light_specular);
 	glLightfv (GL_LIGHT1, GL_POSITION, light_position);
     glEnable (GL_LIGHT1);*/
 
 	    //Materials initialization and activation
-	glMaterialfv (GL_FRONT, GL_AMBIENT, mat_ambient);
+	/*glMaterialfv (GL_FRONT, GL_AMBIENT, mat_ambient);
 	glMaterialfv (GL_FRONT, GL_DIFFUSE, mat_diffuse);
 	glMaterialfv (GL_FRONT, GL_DIFFUSE, mat_specular);
-	glMaterialfv (GL_FRONT, GL_POSITION, mat_shininess);
-	glShadeModel (GL_SMOOTH);
+	glMaterialfv (GL_FRONT, GL_POSITION, mat_shininess);*/
+	//glShadeModel (GL_SMOOTH);
 	camera.setPosition(89.55,100.0,100.0,100.0);
 }
 
@@ -59,6 +60,10 @@ void display(void)
 	glLoadIdentity();
 	glClear (GL_COLOR_BUFFER_BIT);
 	gluLookAt(camera.getXpos(), camera.getYpos(), camera.getZpos(), camera.getXpos()+camera.getDirectionX(),camera.getYpos()+camera.getDirectionY(), 		camera.getZpos()+camera.getDirectionZ(),0.0,1.0,0.0);
+
+	glPushMatrix();
+	glmDraw(gun,GLM_SMOOTH | GLM_TEXTURE);
+	glPopMatrix();
 	
 	char** matrice;
 	LettoreMatrice l;
@@ -181,6 +186,11 @@ int main(int argc, char** argv)
 	glutCreateWindow (argv[0]);
 	init();
 	glutFullScreen();
+	gun=glmReadOBJ("models/SWAT_rifle.obj");
+	glmScale(gun, 0.005);
+    glmUnitize(gun);
+	glmFacetNormals(gun);
+	glmVertexNormals(gun, 90.0,0.0);
 	glutDisplayFunc(display);	
 	glutReshapeFunc(reshape);
 	glutKeyboardFunc(keyboard);

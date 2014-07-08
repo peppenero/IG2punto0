@@ -1,0 +1,868 @@
+newmtl frame
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color01.jpg
+map_Bump /maps/BRM92_frame_Bump01.jpg
+
+newmtl grip
+d 1
+Ns 0.98
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Bump /maps/BRM92_grip_Bump01.jpg
+
+newmtl screw_head
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_1R
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_2L
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_1L
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_ejector
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer_pin
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer_axis
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_shaft
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_notch
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+
+newmtl frame_mag_well_wall
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color01.jpg
+
+newmtl subparts_trigger_shaft
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_axis
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_discone
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_bar_sha
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_spring_end
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_TL_releasebutton
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl frame_trigger_wall
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color01.jpg
+
+newmtl frame_lanyard_ring
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color01.jpg
+
+newmtl slide_barrel_9mm
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+map_Bump /maps/BRM92_slide_Bump01.jpg
+
+newmtl subparts_LockingBlock_ax
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_LockingBlock
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+map_Bump /maps/BRM92_slide_Bump01.jpg
+
+newmtl subparts_mag_catch
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_takedown_lever
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_lever
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_bar
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_slide
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+map_Bump /maps/BRM92_slide_Bump01.jpg
+
+newmtl subparts_firing_pin
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_firing_pin_lock
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_shaft
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_lever
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_shaft_pi
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_firing_pin_plun
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_extractor_shaft
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_extractor_axis
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_extractor
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+
+newmtl slide_extractor_pin_h
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+
+newmtl slide_rear_sight
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+map_Bump /maps/BRM92_slide_Bump01.jpg
+
+newmtl slide_slide_inner_wal
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+
+newmtl slide_safety_wall
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color01.jpg
+map_Bump /maps/BRM92_slide_Bump01.jpg
+
+newmtl frame_BRM92_5S
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color02.jpg
+map_Bump /maps/BRM92_frame_Bump01.jpg
+
+newmtl grip_grip_(2)
+d 1
+Ns 0.98
+Ni 0
+Ka 0 0 0
+Kd 0.176471 0.176471 0.176471
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Bump /maps/BRM92_grip_Bump01.jpg
+
+newmtl screw_head_screw_head_2R_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_1R_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_2L_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl screw_head_screw_head_1L_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_firing_pin_lock_1_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_ejector_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer_pin_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer_axis_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_hammer_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_shaft_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_notch_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_recoil_spring_g_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+
+newmtl frame_mag_well_wall_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color02.jpg
+
+newmtl subparts_trigger_shaft_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_axis_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_discone_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_bar_sha_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_spring_end_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_TL_releasebutton_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl frame_trigger_wall_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color02.jpg
+
+newmtl frame_lanyard_ring_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_frame_Color02.jpg
+
+newmtl slide_barrel_9mm_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+map_Bump /maps/BRM92_slide_Bump02.jpg
+
+newmtl subparts_LockingBlock_ax_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_LockingBlock_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+map_Bump /maps/BRM92_slide_Bump02.jpg
+
+newmtl subparts_mag_catch_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_takedown_lever_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_slidestop_lever_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_trigger_bar_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_slide_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+map_Bump /maps/BRM92_slide_Bump02.jpg
+
+newmtl subparts_firing_pin_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_firing_pin_lock_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_axis_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_shaft_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_lever_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_safety_shaft_pi_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl safety_parts_firing_pin_plun_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_extractor_shaft_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl subparts_extractor_axis_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.564706 0.564706 0.564706
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+
+newmtl slide_extractor_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+
+newmtl slide_extractor_pin_h_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+
+newmtl slide_rear_sight_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+map_Bump /maps/BRM92_slide_Bump02.jpg
+
+newmtl slide_slide_inner_wal_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+
+newmtl slide_safety_wall_(2)
+d 1
+Ns 0.972222
+Ni 0
+Ka 0 0 0
+Kd 0.984314 0.984314 0.984314
+Ks 0.976471 0.976471 0.976471
+Km 0.02
+map_Kd /maps/BRM92_slide_Color02.jpg
+map_Bump /maps/BRM92_slide_Bump02.jpg
+
